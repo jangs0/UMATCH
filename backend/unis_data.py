@@ -28,7 +28,7 @@ UNIVERSITIES_100 = [
     {"name": "Tulane University of Louisiana", "tier": 2, "aid_status": "ME", "scorecard_id": 160755},
     {"name": "New York University", "tier": 2, "aid_status": "NA", "scorecard_id": 193900},
     {"name": "Wake Forest University", "tier": 2, "aid_status": "ME", "scorecard_id": 200280},
-    {"name": "Northeastern University", "tier": 2, "aid_status": "NA", "scorecard_id": 168987},
+    {"name": "Northeastern University", "tier": 2, "aid_status": "NA", "scorecard_id": 167358},,
     {"name": "University of Southern California", "tier": 2, "aid_status": "NA", "scorecard_id": 123961},
     # REGULAR - tier 3
     {"name": "Pomona College", "tier": 3, "aid_status": "NA", "scorecard_id": 121345},
@@ -47,7 +47,7 @@ UNIVERSITIES_100 = [
     {"name": "Lehigh University", "tier": 3, "aid_status": "NA", "scorecard_id": 213543},
     {"name": "University of Richmond", "tier": 3, "aid_status": "NA", "scorecard_id": 232566},
     {"name": "Macalester College", "tier": 3, "aid_status": "NA", "scorecard_id": 174792},
-    {"name": "Babson College", "tier": 3, "aid_status": "NA", "scorecard_id": 164695},
+    {"name": "Babson College", "tier": 3, "aid_status": "NA", "scorecard_id": 164580},
     {"name": "Case Western Reserve University", "tier": 3, "aid_status": "NA", "scorecard_id": 201885},
     {"name": "Denison University", "tier": 3, "aid_status": "NA", "scorecard_id": 202134},
     {"name": "Dickinson College", "tier": 3, "aid_status": "NA", "scorecard_id": 212577},
