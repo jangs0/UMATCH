@@ -126,7 +126,13 @@ def tier_match(sat, act, uni):
     """
     ШАГ 1 — Определение тира университета (Reach/Match/Safety) ПО SAT/ACT,
     когда тесты сданы. Использует sat_25/sat_75 (или act_25/act_75 как fallback).
+    Дополнительно: вузы с acceptance_rate < 10% всегда Reach.
     """
+    # Если acceptance rate < 10% — всегда Reach независимо от SAT
+    acceptance_rate = uni.get("acceptance_rate")
+    if acceptance_rate and acceptance_rate < 0.10:
+        return "Reach"
+
     sat_25, sat_75 = uni.get("sat_25"), uni.get("sat_75")
     act_25, act_75 = uni.get("act_25"), uni.get("act_75")
 
